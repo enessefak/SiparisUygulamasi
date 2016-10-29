@@ -1,0 +1,393 @@
+﻿@{
+    Page.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!--  Start slider area-->
+<section class="slider-top-area">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="~/Content/image/slider-bg.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2 class="heading1 animated slideInLeft">Welcome to</h2>
+                    <h2 class="heading2 animated fadeInRightBig">DELICIOUS FOOD</h2>
+                    <div class="slider-button animated zoomIn">
+                        <a href="#">ONLİNE SİPARİŞ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="" src="~/Content/image/slider-bg.jpg">
+                <div class="carousel-caption">
+                    <h2 class="heading1 animated slideInLeft">Welcome to</h2>
+                    <h2 class="heading2 animated fadeInRightBig">DELICIOUS FOOD</h2>
+                    <div class="slider-button animated zoomIn">
+                        <a href="#">RESERVATION NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="" src="~/Content/image/slider-bg.jpg">
+                <div class="carousel-caption">
+                    <h2 class="heading1 animated slideInLeft">Welcome to</h2>
+                    <h2 class="heading2 animated fadeInRightBig">DELICIOUS FOOD</h2>
+                    <div class="slider-button animated zoomIn">
+                        <a href="#">RESERVATION NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  End slider area-->
+<!--   Start about us area-->
+<section class="about-us-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 about">
+                <div class="about-img">
+                    <img src="~/Content/image/about-us\1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-8 about-us">
+                <h2>About <span>Us</span></h2>
+                <p>Maecenas ac diam at justo commodo elementum. Aenean consectetur mauris eget enim feugiat auctor vitae id lorem. Aliquam eget mauris diam. In vestibulum mollis enim ut sodales. Nam quis metus ac risus lacinia sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras eu fringilla massa. Fusce leo tortor, luctus non eleifend eu, consectetur non tellus. Proin nec magna nec libero dapibus sollicitudin. Sed rhoncus tristique ante eu pretium. </p>
+                <a href="#"><img src="~/Content/image/about-us\sign.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  End about us area-->
+<!--    Start our menu area-->
+<section class="our-menu-area">
+    <div class="container">
+        <div class="section-tittle">
+            <h2>Our<span>Menu</span></h2>
+            <p> Praesent tempus volutpat lorem in facilisis. In sollicitudin pellentesque justo, sed tristique<br> mauris egestas et. Praesent consectetur lorem tortor.</p>
+        </div>
+        <div class="row menu-gallery">
+            <div class="menu-filter" id="menu-filter">
+                <ul>
+                    <li class="active" data-filter="*">ALL</li>
+                    <li data-filter=".BREAKFAST">BREAKFAST</li>
+                    <li data-filter=".LUNCH">LUNCH</li>
+                    <li data-filter=".DINNER">DINNER</li>
+                    <li data-filter=".SNACKS">SNACKS</li>
+                </ul>
+            </div>
+            <div class="row m0 menu-items" id="menu-items">
+                <div class="col-md-6 item LUNCH">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>CHEESE PLATE</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            19.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Suspendisse lacus quam. Nulla pretium elit ornare consequat.</p>
+                </div>
+                <div class="col-md-6 item">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>FRESH FETTUCCINI  GARLIC ALFREDO</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            35.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Nullam enim risus, eleifend quis consectetur maximus eget lorem.</p>
+                </div>
+                <div class="col-md-6 item LUNCH">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>CHOP</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            14.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Aenean ex ex, bibendum eget tincidunt at, egestas ut massa.</p>
+                </div>
+                <div class="col-md-6 item">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>ORANGE DUCK</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            14.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Suspendisse lacus quam. Nulla pretium elit ornare consequat.</p>
+                </div>
+                <div class="col-md-6 item LUNCH">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>SPECIAL STEAK</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            22.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Aenean ipsum dapibus aliquam bibendum a finibus.</p>
+                </div>
+                <div class="col-md-6 item">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>LASAGNA</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            22.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Suspendisse lacus quam. Nulla pretium elit ornare consequat.</p>
+                </div>
+                <div class="col-md-6 item LUNCH">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>ENTRECOTE</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            21.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Maecenas iaculis, nibh a sodales gravida</p>
+                </div>
+                <div class="col-md-6 item">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>ENTRECOTE</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            21.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Nam at vehicula lacus, ut consectetur</p>
+                </div>
+                <div class="col-md-6 item LUNCH">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>FRESH FISH</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            19.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Donec justo risus, lobortis consectetur justo, volutpat fringilla lacus.</p>
+                </div>
+                <div class="col-md-6 item">
+                    <div class="content">
+                        <!-- item name -->
+                        <div class="restaurant-menu-name">
+                            <span>FRESH FISH</span>
+                        </div>
+                        <!-- /item name -->
+                        <div class="restaurant-menu-dots"></div>
+                        <!-- item price -->
+                        <div class="restaurant-menu-price">
+                            19.00 $
+                        </div>
+                        <!-- /item price -->
+                    </div>
+                    <p>Nullam enim risus, eleifend consectetur, maximus eget lorem.</p>
+                </div>
+            </div>
+            <div class="button">
+                <div class="slider-button">
+                    <a class="" href="#">VIEW OUR MENU</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    End our menu area-->
+<!--    Start our feature area-->
+<section class="features-area">
+    <div class="container">
+        <div class="section-tittle">
+            <h2>Our<span>Features</span></h2>
+            <p> Raesent vitae nisi sit amet tellus sodales commodo auctor nec justo.<br> Duis  vehicula odio, sit amet dapibus nulla.</p>
+        </div>
+        <div class="row features-item">
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\1.jpg" alt=""></a>
+                    <a href="#"><h2>ROAST BEEF IN THE OVEN</h2></a>
+                    <p>Nulla sapien augue, suscipit id lorem nec, semper varius eros. Aenean eu elit sagittis libero imperdiet tempus a quis neque. Quisque quam augue, pulvinar vel aliquam non, sollicitudin ut felis. Sed ultrices tortor sed magna molestie aliquet. </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\2.jpg" alt=""></a>
+                    <a href="#"><h2>Mauris tempor fringilla</h2></a>
+                    <p>Mollis augue velit, a luctus felis faucibus a. Sed orci erat, scelerisque quis maximus a, suscipit vel dolor. Cras facilisis imperdiet rutrum. Proin aliquet tincidunt maximus. Mauris tincidunt magna ut eros molestie, id dignissim leo euismod.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\3.jpg" alt=""></a>
+                    <a href="#"><h2>Suspendisse lacus imperdiet eget</h2></a>
+                    <p>Nullam enim risus, eleifend quis consectetur id, maximus eget lorem. Vestibulum vehicula diam dictum, semper tortor vitae, convallis eros. Suspendisse iaculis tortor ac tellus condimentum lacinia. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    End our feature area-->
+<!--    start reservation area-->
+<section class="reservation-area">
+    <div class="container">
+        <div class="section-tittle">
+            <h2>Reservation</h2>
+            <p> Raesent vitae nisi sit amet tellus sodales commodo auctor nec justo.<br> Duis  vehicula odio, sit amet dapibus nulla.</p>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 input-container">
+                        <input type="text" placeholder="name" name="name" required="">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="col-md-4 input-container">
+                        <div class="input-group date-info">
+                            <input type="text" class="form-control datepicker" placeholder="Date">
+                            <div class="input-group-addon">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 input-container">
+                        <div class="input-group bootstrap-timepicker timepicker date-info">
+                            <input id="timepicker1" type="text" class="form-control input-small" placeholder="Time">
+                            <div class="input-group-addon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 input-container">
+                        <input type="text" placeholder="Guests" name="name" required="">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-4 input-container">
+                        <input type="email" placeholder="Email Address" name="name" required="">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-4 input-container">
+                        <input type="text" placeholder="Phone Number" name="name" required="">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="button">
+            <div class="slider-button">
+                <a class="" href="#">MAKE A RESERVATION</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    End reservation area-->
+<!--    Start our feature area-->
+<section class="features-area news">
+    <div class="container">
+        <div class="section-tittle">
+            <h2>Our<span>News</span></h2>
+            <p> Raesent vitae nisi sit amet tellus sodales commodo auctor nec justo.<br> Duis  vehicula odio, sit amet dapibus nulla.</p>
+        </div>
+        <div class="row features-item">
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\1.jpg" alt=""></a>
+                    <a href="#"><h2>ROAST BEEF IN THE OVEN</h2></a>
+                    <ul class="list">
+                        <li><a href="#">June 11, 2015</a></li>
+                        <li><a href="#">Events, Food</a></li>
+                        <li><a href="#">by Master Chef</a></li>
+                    </ul>
+                    <p>Nulla sapien augue, suscipit id lorem nec, semper varius eros. Aenean eu elit sagittis libero imperdiet tempus a quis neque imperdiet eget varius...</p>
+                    <a class="read" href="#">Read More ...</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\2.jpg" alt=""></a>
+                    <a href="#"><h2>Mauris tempor fringilla</h2></a>
+                    <ul class="list">
+                        <li><a href="#">June 11, 2015</a></li>
+                        <li><a href="#">Events, Food</a></li>
+                        <li><a href="#">by Master Chef</a></li>
+                    </ul>
+                    <p>Nulla sapien augue, suscipit id lorem nec, semper varius eros. Aenean eu elit sagittis libero imperdiet tempus a quis neque imperdiet eget varius...</p>
+                    <a class="read" href="#">Read More ...</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="features">
+                    <a href="#"><img class="img-responsive" src="~/Content/image/feature\3.jpg" alt=""></a>
+                    <a href="#"><h2>Suspendisse lacus imperdiet eget</h2></a>
+                    <ul class="list">
+                        <li><a href="#">June 11, 2015</a></li>
+                        <li><a href="#">Events, Food</a></li>
+                        <li><a href="#">by Master Chef</a></li>
+                    </ul>
+                    <p>Nulla sapien augue, suscipit id lorem nec, semper varius eros. Aenean eu elit sagittis libero imperdiet tempus a quis neque imperdiet eget varius...</p>
+                    <a class="read" href="#">Read More ...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    End our feature area-->

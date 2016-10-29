@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "react": {
+      "path": "Areas/Admin/Content/Lib/react",
+      "version": "15.3.2"
+    }
+  }
+}

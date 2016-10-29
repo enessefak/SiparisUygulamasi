@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.Data", "Siparis.Data\Siparis.Data.csproj", "{A00924AA-ADCA-4C74-95CC-ED0158933F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.Data.Model", "Siparis.Data.Model\Siparis.Data.Model.csproj", "{45B5DF71-22B8-42D5-83F2-11949B694869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.Service", "Siparis.Service\Siparis.Service.csproj", "{AE62A948-44BA-4970-94B6-DE97595F6877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.API", "Siparis.API\Siparis.API.csproj", "{0BD361D2-CD53-4628-9C28-BE1911D19FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.MVC", "Siparis.MVC\Siparis.MVC.csproj", "{39638634-C710-425B-A73A-5EE7D9EB1471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.Surrogate", "Siparis.Surrogate\Siparis.Surrogate.csproj", "{999CF621-2788-498E-8005-CF6A33B6F470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00924AA-ADCA-4C74-95CC-ED0158933F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00924AA-ADCA-4C74-95CC-ED0158933F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00924AA-ADCA-4C74-95CC-ED0158933F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00924AA-ADCA-4C74-95CC-ED0158933F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B5DF71-22B8-42D5-83F2-11949B694869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B5DF71-22B8-42D5-83F2-11949B694869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B5DF71-22B8-42D5-83F2-11949B694869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B5DF71-22B8-42D5-83F2-11949B694869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE62A948-44BA-4970-94B6-DE97595F6877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE62A948-44BA-4970-94B6-DE97595F6877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE62A948-44BA-4970-94B6-DE97595F6877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE62A948-44BA-4970-94B6-DE97595F6877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD361D2-CD53-4628-9C28-BE1911D19FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD361D2-CD53-4628-9C28-BE1911D19FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD361D2-CD53-4628-9C28-BE1911D19FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD361D2-CD53-4628-9C28-BE1911D19FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39638634-C710-425B-A73A-5EE7D9EB1471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39638634-C710-425B-A73A-5EE7D9EB1471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39638634-C710-425B-A73A-5EE7D9EB1471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39638634-C710-425B-A73A-5EE7D9EB1471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999CF621-2788-498E-8005-CF6A33B6F470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999CF621-2788-498E-8005-CF6A33B6F470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999CF621-2788-498E-8005-CF6A33B6F470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999CF621-2788-498E-8005-CF6A33B6F470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

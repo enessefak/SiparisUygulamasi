@@ -1,0 +1,302 @@
+@media (max-width:1500px){
+    .slider-top-area .carousel .carousel-inner .item .carousel-caption{
+        padding-top: 80px;
+    }
+}
+@media (max-width:1366px){
+    .slider-top-area .carousel .carousel-indicators{
+        bottom: 20px;
+    }
+}
+@media (max-width:1199px){
+    .navbar-default{
+        padding-top: 10px;
+    }
+    .slider-top-area .carousel .carousel-inner .item .carousel-caption{
+        padding-top: 83px;
+    }
+    .slider-top-area .carousel .carousel-inner .item .carousel-caption .heading1{
+        line-height: 65px;
+    }
+    .slider-top-area .carousel .carousel-inner .item .carousel-caption .heading2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .slider-button{
+        margin-top: 25px;
+    }
+    .about-us-area .about-us{
+        padding: 80px 15px 0px 30px;
+    }
+    .newsletter-area .subcribs .input-group i{
+        right: 37%;
+    }
+    .event-content-area .events .events-item .media-left,.media-body{
+        display: block;
+    }
+    .event-content-area .events .events-item .events-content{
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .event-content-area form .form-group .col-md-offset-1.input-container{
+        margin-left: 0px;
+    }
+    .related-event-area .related-event-item .b-top-line{
+        border-bottom: 25px solid #000;
+         border-top: 24px solid #000;
+        border-left: 29px solid #000;
+        border-right: 29px solid #000;
+    }
+    .sidebar-section .widget-gallery ul li:nth-child(4){
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+    .blogs-area .blog-details .about-post-author .author-bio .media-middle{
+        width: 100%;
+    }
+    .blogs-area .blog-details .about-post-author .posts-social .social{
+        padding-left: 10px;
+    }
+    .blogs-area .blog-details .about-post-author .author-bio .media-left,.media-middle{
+        display: table-cell;
+    }
+    .blogs-area .blog-details .comments .media-left,.media-body{
+        display: table-cell;
+    }
+}
+@media (max-width:991px){
+    .slider-top-area .carousel .carousel-inner .item{
+        height: 500px;
+    }
+    .carousel-inner > .item > img{
+        height: 500px;
+    }
+    .about-us-area .about-us{
+        padding: 15px 15px 60px;
+    }
+    .features-area .features-item .col-md-4 + .col-md-4{
+        margin-top: 30px;
+    }
+    .features-area .features-item .features{
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    .newsletter-area .subcribs .input-group i{
+        right: 20%;
+    }
+    .newsletter-area{
+        padding: 12px 0px 19px;
+    }
+    .about-caferesto-area .about-caferesto{
+        width: 320px;
+        padding-left: 0px;
+        margin-left: 46px;
+    }
+    .about-caferesto-area .about-content{
+        padding-right: 15px;
+        margin-top: 70px;
+    }
+    .testimonial-area .testimonial-slider .testimonial-content{
+        padding: 0 46px;
+    }
+    .team-area .team-item{
+        max-width: 290px;
+        margin: 0 auto 30px;
+    }
+    .team-area{
+        padding-bottom: 70px;
+    }
+    .event-content-area .events{
+        margin-top: 25px;
+    }
+    .related-event-area .related-event-item{
+        max-width: 320px;
+        margin: 0 auto 25px;
+    }
+    .related-event-area .related-event-item .b-top-line{
+        border-bottom: 26px solid #000;
+         border-top: 26px solid #000;
+        border-left: 32px solid #000;
+        border-right: 32px solid #000;
+    }
+    .sidebar-section .widget-gallery ul li:nth-child(4){
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    .sidebar-section .widget-gallery{
+        max-width: 270px;
+    }
+    .blogs-area .sidebar-section{
+        padding-top: 30px;
+        max-width: 300px;
+    }
+    .contect .contect_form .message{
+        margin-top: 15px;
+    }
+    .contacts-area .contact-info{
+        padding-top: 20px;
+    }
+    .menu-page .texts{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media (max-width:767px){
+    .reservation-form form{
+        padding: 0px 50px;
+    }
+    .event-content-area .events .events-item .media-left img{
+        max-width: 100%;
+    }
+    .navbar-default .menu-container .menu li{
+        display: block;
+        text-align: left;
+    }
+    .navbar-default .menu-container .menu li +li{
+        margin-left: 0px;
+    }
+    .navbar-collapse{
+        background: #000;
+        border-top: 0px;
+        box-shadow: none;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .navbar-default .menu-container .menu{
+        margin: 0px;
+        border-bottom: 0px;
+        padding-top: 20px;
+    }
+}
+@media (max-width:700px){
+    .newsletter-area .subcribs .input-group i{
+        right: 24%;
+    }
+    .blogs-area .blog-section .blog-content a h2{
+        display: block;
+    }
+    .blogs-area .blog-section .blog-content .date{
+        float: none;
+    }
+    .blogs-area .blog-details .blog-texts a h2{
+        display: block;
+        padding-bottom: 5px;
+    }
+    .blogs-area .blog-details .blog-texts .date{
+        float: none;
+    }
+}
+
+@media (max-width:600px){
+    .newsletter-area .subcribs .input-group i{
+        right: 26%;
+    }
+    .breadcrumb-area .page-cover .page-cover-tittle{
+        font-size: 50px;
+    }
+    .error-page-content .page-content h2{
+        font-size:260px; 
+    }
+    .blogs-area .blog-section .blog-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .blogs-area .blog-details .comments .media-left,.media-body{
+        display: block;
+    }
+    .blogs-area .blog-details .comments .media-body{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .blogs-area .blog-details .comments .comment:nth-child(2){
+        padding-left: 0px;
+    }
+    .about-us-area .about .about-img{
+        top: 0;
+    }
+    .about-us-area .about{
+        height: 603px;
+    }
+    
+}
+@media (max-width:540px){
+    .newsletter-area .subcribs .input-group i{
+        right: 30%;
+    }
+    .menu-gallery .menu-items .item .content .restaurant-menu-name{
+        font-size: 12px;
+    }
+}
+@media (max-width:480px){
+    .slider-top-area .carousel .carousel-indicators{
+        bottom: 0px;
+    }
+    .about-us-area .about .about-img img{
+        max-width: 100%;
+    }
+    .newsletter-area .subcribs .input-group{
+        display: block;
+    }
+    .newsletter-area .subcribs .input-group i{
+        right: 0%;
+        padding-right: 20px;
+    }
+    .newsletter-area .subcribs .input-group .input-group-addon .btn-default{
+        width: 100%;
+        border-radius: 2px;
+    }
+    .newsletter-area .subcribs .input-group .form-control{
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    .testimonial-area .testimonial-slider .owl-prev, .testimonial-area .testimonial-slider .owl-next{
+        top: 100%;
+    }
+    .testimonial-area .testimonial-slider .testimonial-content{
+        padding: 0px;
+    }
+    .error-page-content .page-content h2{
+        font-size: 162px;
+        line-height: 180px;
+    }
+    .reservation-form form{
+        padding: 0px 0px;
+    }
+    .menu-gallery .menu-filter ul{
+        padding: 0px 15px;
+    }
+    .menu-gallery .menu-filter ul li + li{
+        padding-left: 10px;
+    }
+}
+@media (max-width:380px){
+    .about-caferesto-area .about-caferesto{
+        max-width: 280px;
+        margin-left: 37px;
+    }
+    .about-caferesto-area .about-caferesto .about-img::before{
+        right: 20px;
+        top: 20px;
+        bottom: -20px;
+        left: -20px;
+    }
+    .breadcrumb-area .page-cover .page-cover-tittle{
+        font-size: 42px;
+    }
+    .related-event-area .related-event-item{
+        max-width: 290px;
+        margin: 0 auto 25px;
+    }
+    .related-event-area .related-event-item .b-top-line{
+        border-bottom: 24px solid #000;
+         border-top: 24px solid #000;
+        border-left: 29px solid #000;
+        border-right: 29px solid #000;
+    }
+}
+@media (max-width:330px){
+    .features-area .features .list li a{
+        font-size: 13px;
+    }
+}

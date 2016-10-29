@@ -1,0 +1,64 @@
+﻿
+@{
+    Page.Title = "İletişim";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+   <!--   start breadcrumb area-->
+<section class="row breadcrumb-area menu">
+    <div class="container">
+        <div class="row m0 page-cover">
+            <h2 class="page-cover-tittle">Contact Us</h2>
+        </div>
+    </div>
+</section>
+<!--  End slider area-->
+<!--   Start contact-area-->
+<section class="contacts-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 contect">
+                <h3 class="contact-title">SEND A MESSAGE</h3>
+                <form action="contact_process.php" id="contactForm" class="contect_form row contact-form">
+                    <div class="col-md-5">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="email">
+                        <input type="text" name="website" id="website" class="form-control" placeholder="Website">
+                    </div>
+                    <div class="col-md-7">
+                        <textarea name="message" id="message" placeholder="Message" class="message"></textarea>
+                    </div>
+                </form>
+                <div id="success">Your message succesfully sent!</div>
+                <div id="error">Opps! There is something wrong. Please try again</div>
+                <button type="submit" class="btn btn-primary">send message</button>
+            </div>
+            <div class="col-md-4 contact-info">
+                <h3 class="contact-title">CONTACT INFO</h3>
+                <ul class="nav info">
+                    <li><i class="fa fa-map-marker"></i>107727 Santa Monica Boulevard Los Angeles,<br> California 90025-4718 United States of America</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>0251 542 52 54</span>- Office<span><br> 0251 542 52 20</span> - Mobile</li>
+                    <li>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        107727 Santa Monica Boulevard Los Angeles,<br>
+                        California 90025-4718 United States of America
+                    </li>
+                </ul>
+                <ul class="social-nav">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--   Start contact-area-->
+<!--    map-->
+<section class="map">
+    <div id="mapBox" class="row m0" data-lat="37.3818288" data-lon="-122.0636325" data-zoom="15"></div>
+</section>
+
+
